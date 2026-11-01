@@ -148,7 +148,9 @@ def explicar_lenguaje_natural(perfil, recomendacion, contribuciones):
     reglas (fallback)."""
     try:
         from google import genai
-        api_key = st.secrets.get("LLM_API_KEY", None)
+        # Prioridad: key paga > key gratis > fallback a reglas
+        api_key = (st.secrets.get("LLM_API_KEY_PAGA", None)
+                   or st.secrets.get("LLM_API_KEY", None))
         modelo_nombre = st.secrets.get("LLM_MODELO",
                                         "gemini-2.0-flash-exp")
         if not api_key:
