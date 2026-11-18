@@ -251,8 +251,10 @@ st.caption(
 st.markdown("---")
 st.markdown(
     "Responda las cinco preguntas siguientes sobre su empresa. El "
-    "sistema le recomendará una de tres arquitecturas (RAG, ajuste "
-    "fino o híbrida) y le dará una explicación de por qué."
+    "sistema le recomendará una de dos arquitecturas (RAG o híbrida) "
+    "y le dará una explicación de por qué. El fine-tuning puro quedó "
+    "excluido por la calibración empírica del experimento (sección 8.3 "
+    "del trabajo de grado)."
 )
 
 with st.form("formulario"):
