@@ -2,7 +2,7 @@
 mipymes del sector servicios: selección entre RAG, fine-tuning e
 híbrida para chatbots empresariales.
 
-Trabajo de grado — Maestría en Ciencia de Datos y Maestría en
+Trabajo de grado, Maestría en Ciencia de Datos y Maestría en
 Inteligencia de Negocios, Universidad Ean.
 Autoras: Laura Ximena Agudelo Bastidas, Andrea Carolina Conde Avila,
 Emily Del Carmen Tench Pérez. Directora: Carolina María Luque Zabala.
@@ -241,7 +241,7 @@ st.markdown(
     "servicios**"
 )
 st.caption(
-    "Prototipo del trabajo de grado — Maestría en Ciencia de Datos "
+    "Prototipo del trabajo de grado, Maestría en Ciencia de Datos "
     "y Maestría en Inteligencia de Negocios, Universidad Ean. "
     "Autoras: Laura Ximena Agudelo Bastidas, Andrea Carolina Conde "
     "Avila, Emily Del Carmen Tench Pérez. Directora: Carolina María "
